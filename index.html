@@ -1,0 +1,712 @@
+<link rel="icon" href="tri.ico" type="image/png/">
+<!DOCTYPE html>
+<html lang="pt-br">  
+	<head>
+		<meta charset="utf-8">	
+		<title>São Paulo FC</title>
+	
+	<style>
+        body {
+			background-size: 100% 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+
+        h1 {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-family:Bahnschrift Condensed;
+        }
+	        img {
+            max-width: 100%;
+            height: auto;
+			border: 7px solid black;
+        }
+          p  {
+			font-family:Bahnschrift Condensed;
+		  }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse:collapse;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 5px solid black;
+			
+			
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+			font-family:Bahnschrift Condensed;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #FF0000;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+		 .video-container {
+            position: relative;
+            padding-bottom: 30.25%; 
+            padding-top: 10px;
+            height: 0;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
+        }
+		
+       .custom-button {
+        background-color: #FF0000;
+        color: #000000;
+        padding: 10px 26px; 
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, box-shadow 0.3s; 
+        font-family:Bahnschrift Condensed;
+  
+        &:hover {
+        background-color: #FFFFFF;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+       }
+    }
+
+
+      .custom-button:focus {
+       outline: none; 
+       }
+		
+    </style>
+	</head>
+	<body>
+		<table border="1">
+ <h1 style="color: #FF0000;">Lista dos Jogadores do Elenco atual e de algumas Lendas.
+</h1>
+  <tr>
+    <th>Camisa</th>
+    <th>Nome</th>
+    <th>Jogos</th>
+    <th>Gols</th>
+    <th>Assistências</th>
+    <th>Posição</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Rogério Ceni</td>
+    <td>1257</td>
+    <td>131</td>
+    <td>0</td>
+    <td>Goleiro</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Rafael Pires Monteiro</td>
+    <td>79</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Goleiro</td>
+  </tr>
+    <tr>
+    <td>93</td>
+    <td>Jandrei Chitolina Carniel</td>
+    <td>50</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Goleiro</td>
+  </tr>
+    <tr>
+    <td>50</td>
+    <td>Young Navarro Moraes</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Goleiro</td>
+  </tr>
+    <tr>
+    <td>5</td>
+    <td>Robert Abel Arboleda Escobar</td>
+    <td>263</td>
+    <td>18</td>
+    <td>8</td>
+    <td>Zagueiro</td>
+  </tr>
+    <tr>
+    <td>Não definido</td>
+    <td>José Sabino Chagas Monteiro</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Zagueiro</td>
+  </tr>
+    <tr>
+    <td>28</td>
+    <td>Alan Javier Franco</td>
+    <td>38</td>
+    <td>3</td>
+    <td>5</td>
+    <td>Zagueiro</td>
+  </tr>
+   <tr>
+    <td>44</td>
+    <td>Matheus José Belém de Souza</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Zagueiro/Lateral Esquerdo</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Nahuel Adolfo Ferraresi Hernández</td>
+    <td>10</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Zagueiro</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Diego Henrique Costa Barbosa/td>
+    <td>143</td>
+    <td>5</td>
+    <td>0</td>
+    <td>Zagueiro</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Diego Alfredo Lugano Moreno</td>
+    <td>219</td>
+    <td>13</td>
+    <td>6</td>
+    <td>Zagueiro</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Igor Vinícius de Souza</td>
+    <td>162</td>
+    <td>7</td>
+    <td>19</td>
+    <td>Lateral Direito</td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>Igor Teixeira Felisberto</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Lateral Direito</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>João Moreira Sanmartin Souza</td>
+    <td>16</td>
+    <td>1</td>
+    <td>3</td>
+    <td>Lateral Direito</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Marcos Evangelista de Moraes ou Cafu</td>
+    <td>270</td>
+    <td>39</td>
+    <td>13</td>
+    <td>Lateral Direito</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Márcio Rafael Ferreira de Souza ou Rafinha</td>
+    <td>100</td>
+    <td>1</td>
+    <td>5</td>
+    <td>Lateral Direito</td>
+  </tr>
+    <tr>
+    <td>6</td>
+    <td>Welington Damascena Santos</td>
+    <td>131</td>
+    <td>2</td>
+    <td>9</td>
+    <td>Lateral Esquerdo</td>
+  </tr>
+    <tr>
+    <td>36</td>
+    <td>Patryck Lanza dos Reis</td>
+    <td>14</td>
+    <td>0</td>
+    <td>1</td>
+    <td>Lateral Esquerdo</td>
+  </tr>
+    <tr>
+    <td>7</td>
+    <td>Carlos Luciano da Silva ou Mineiro</td>
+    <td>138</td>
+    <td>14</td>
+    <td>7</td>
+    <td>Volante</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Pablo Maia</td>
+    <td>132</td>
+    <td>7</td>
+    <td>3</td>
+    <td>Volante</td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>Luiz Gustavo Dias'</td>
+    <td>6</td>
+    <td>2</td>
+    <td>0</td>
+    <td>Volante</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Alisson Euler de Freitas Castro</td>
+    <td>108</td>
+    <td>5</td>
+    <td>9</td>
+    <td>Volante</td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>Iba Ly</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Volante</td>
+  </tr>
+    <tr>
+    <td>46</td>
+    <td>Felipe Negrucci Berdague</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Volante/Zagueiro</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>55</td>
+    <td>James Rodriguez</td>
+    <td>19</td>
+    <td>2</td>
+    <td>4</td>
+    <td>Meia (Meia Ofensivo) / Atacante (2º Atacante)</td>
+  </tr>
+   <tr>
+    <td>11</td>
+    <td>Rodrigo Nestor</td>
+    <td>181</td>
+    <td>11</td>
+    <td>24</td>
+    <td>Meia (Meia Esquerda) /Volante)</td>
+  </tr>
+    <tr>
+    <td>14</td>
+    <td>Giuliano Galoppo</td>
+    <td>41</td>
+    <td>10</td>
+    <td>2</td>
+    <td>Meia (Meia Ofensivo) </td>
+  </tr>
+    <tr>
+    <td>15</td>
+    <td>Michel Daryl Araújo Villar</td>
+    <td>57</td>
+    <td>4</td>
+    <td>3</td>
+    <td>Meia (Meia Ofensivo) </td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Rodrigo Huendra Almeida Mendonça ou Rodriguinho</td>
+    <td>18</td>
+    <td>1</td>
+    <td>1</td>
+    <td>Meia (Meia Ofensivo) </td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Damián Josué Bobadilla Benítez</td>
+    <td>7</td>
+    <td>1</td>
+    <td>0</td>
+    <td>Meia (Meia Ofensivo) </td>
+  </tr>
+    <tr>
+    <td>10</td>
+    <td>Raí Souza Vieira de Oliveira</td>
+    <td>368</td>
+    <td>108</td>
+    <td>19</td>
+    <td>Meia (Meia Ofensivo)/ Atacante (Ponta Direita) </td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Anderson Hernanes de Carvalho Andrade Lima</td>
+    <td>320</td>
+    <td>52</td>
+    <td>15</td>
+    <td>Meia (Meia Central)/ Meia (Meia Ofensivo)</td>
+  </tr>
+    <tr>
+    <td>8</td>
+    <td>Ricardo Izecson dos Santos Leite ou Kaká</td>
+    <td>154</td>
+    <td>50</td>
+    <td>30</td>
+    <td>Meia (Meia Ofensivo)</td>
+  </tr>
+   <tr>
+    <td>27</td>
+    <td>Wellington Rato</td>
+    <td>73</td>
+    <td>5</td>
+    <td>12</td>
+    <td>Atacante (Ponta Direita) / Meia (Meia Ofensivo)</td>
+  </tr>
+    <tr>
+    <td>9</td>
+    <td>Luís Fabiano Clemente</td>
+    <td>347</td>
+    <td>210</td>
+    <td>35</td>
+    <td>Atacante (Centroavnte)</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Luciano da Rocha Neves</td>
+    <td>216</td>
+    <td>71</td>
+    <td>21</td>
+    <td>Atacante (2º Atacante)</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Lucas Moura</td>
+    <td>155</td>
+    <td>38</td>
+    <td>30</td>
+    <td>Atacante (Ponta Direita) / Atacante (Ponta Esquerda))</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Jonathan Calleri</td>
+    <td>169</td>
+    <td>65</td>
+    <td>17</td>
+    <td>Atacante(Centroavnte)</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Juan Santos da Silva</td>
+    <td>66</td>
+    <td>5</td>
+    <td>4</td>
+    <td>Atacante (Centroavante)</td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>Erick de Arruda Serafim</td>
+    <td>10</td>
+    <td>1</td>
+    <td>1</td>
+    <td>Atacante (Ponta Direita) / Meia (Meia Ofensivo)</td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td>Henrique Fabiano do Carmo</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Atacante (Ponta Direita) (Ponta Esquerda)</td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>William Gomes Carvalho Santos</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Atacante (Ponta Direita)</td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td>Maycon Vinícius Ferreira da Cruz ou Nikão</td>
+    <td>38</td>
+    <td>4</td>
+    <td>5</td>
+    <td>Atacante (Ponta Direita) / Atacante (2º Atacante)</td>
+  </tr>
+  <tr>
+    <td>47</td>
+    <td>Aldemir dos Santos Ferreira</td>
+    <td>15</td>
+    <td>3</td>
+    <td>0</td>
+    <td>Atacante (Ponta Direita) / Meia (Meia Ofensivo)</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>André Oliveira e Silva</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td>Atacante (Centroavante)</td>
+  </tr>
+  
+     
+</table>
+
+		<br /><br />
+		<hr />
+		<center>
+		<h1 style="color: #FF0000;">Hino do São Paulo</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="hino.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Nova Música Torcida Indepedente</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="musica.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Destaques de algumas lendas do São Paulo.
+		</h1>
+	    <h1 style="color: #FF0000;">Rogério Ceni</h1>
+		<img src="Ceni.png">
+		<p style="color: #FF0000;">O maior ídolo da história do São Paulo, Sendo o maior goleiro-artilheiro do mundo e lembrado como um dos melhores goleiros de todos os tempos do Brasil, no auge (2005-2008) de sua carreira como jogador foi tomado como um dos cinco melhores goleiros então em atividade no mundo.
+		 Além de suas habilidades defensivas e como pegador de pênaltis (é o goleiro que mais defendeu pênaltis na história do futebol, tornou-se reconhecido por suas capacidades ofensivas 
+		(com 131 gols marcados, é o goleiro que mais fez gols na história de futebol, e um dos jogadores que mais fez gols de falta, igualando o número de Diego Maradona) e pela precisão de sua reposição de bola em chutes longos, contribuindo assim para armar o ataque.</p>
+		<h1 style="color: #FF0000;">Defesa dele contra o liverpool, mundial de 2005</h1>
+		<img src="defesa.gif">
+
+		<h1 style="color: #FF0000;">Centésimo gol da carreira</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="100.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Mineiro</h1>
+		<img src="mineiro.png">
+		<p style="color: #FF0000;">Carlos Luciano da Silva, mais conhecido como Mineiro (Porto Alegre, 2 de agosto de 1975), é um ex-futebolista brasileiro que atuava como volante.
+		É conhecido por ser um dos maiores volantes da história do São Paulo Futebol Clube, tendo conquistado a Tríplice Coroa (Campeonato Paulista, Libertadores da América e Mundial de Clubes) pelo clube em 2005 e, principalmente, por no mesmo ano marcar o gol do título mundial sobre o Liverpool, em Yokohama, na vitória por 1x0 do time paulista.</p>
+		<h1 style="color: #FF0000;">gol dele contra o liverpool, mundial de 2005</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="mineiro.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Luis Fabiano</h1>
+		<img src="luis.jpg">
+		<p style="color: #FF0000;">Luís Fabiano Clemente, mais conhecido como Luís Fabiano ou Pai do Corinthians (Campinas, 8 de novembro de 1980), é um comentarista e ex-futebolista brasileiro que atuava como centroavante. Atualmente, é comentarista dos canais ESPN e StarPlus.Atuou com destaque no São Paulo FC, onde ocupa a terceira colocação entre os maiores artilheiros da história do clube, com 233 gols marcados em suas duas passagens. É também o maior artilheiro do clube em edições do Campeonato Brasileiro com a marca de 126 gols, e da Copa do Brasil, com 27 gols em 24 jogos, até o presente. 
+         Luís Fabiano ainda é o quinto maior artilheiro da história do clube espanhol Sevilla, com 127 gols.</p>
+		 <h1 style="color: #FF0000;">2 gols dele contra o Corinthians, Brasileirão 2012</h1>
+        <div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="luis.mp4" type="video/mp4">
+		</video>
+		</div>
+		<h1 style="color: #FF0000;">Pai do Corinthins</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="pai.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Raí</h1>
+		<img src="rai.jpg">
+		<p style="color: #FF0000;">Raí Souza Vieira de Oliveira, mais conhecido apenas como Raí (Ribeirão Preto, 15 de maio de 1965), é um ex-futebolista brasileiro que atuava como meio-campista.[1] Um dos grandes jogadores da década de 90, é considerado o maior camisa 10 da história do São Paulo, 
+		clube onde foi ídolo e campeão do mundo em 1992, marcando os dois gols do título na final contra o Barcelona.
+        Representou a Seleção Brasileira na Copa do Mundo FIFA de 1994, onde como camisa 10 fez parte do grupo tetracampeão mundial.</p>
+		<h1 style="color: #FF0000;">gol de falta contra o Barcelona, final do mundial de 1992.</h1>
+        <div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="rai.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Destaques de alguns jogadores do Elenco Atual.
+		</h1>
+		<h1 style="color: #FF0000;">Luciano</h1>
+        <img src="luciano.jpeg">
+		<p style="color: #FF0000;">Luciano da Rocha Neves é um futebolista brasileiro que atua como atacante. Atualmente joga no São Paulo. Foi o artilheiro do Campeonato Brasileiro de 2020 e eleito o melhor da posição na competição.</p>
+		<h1 style="color: #FF0000;">Gol contra o Corinthians e briga, semi-final copa do brasil 2023 jogo de ida.</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Luciano.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Arboleda</h1>
+        <img src="Arboleda.png" width="600" height="720">
+		<p style="color: #FF0000;">Robert Abel Arboleda Escobar (Esmeraldas, 22 de outubro de 1991) é um futebolista equatoriano que atua como zagueiro. Atualmente joga pelo São Paulo e pela Seleção Equatoriana..</p>
+	
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="arboleda1.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">James Rodriguez</h1>
+		
+		<img src="James.jpeg" width="40%" height="60%">
+		
+		<p style="color: #FF0000;">James David Rodríguez Rubio é um futebolista colombiano que atua como meio-campista. Atualmente joga pelo São Paulo. 
+		É elogiado por sua capacidade técnica, visão de jogo, criação de jogadas e a sua finalização.</p>
+		<h1 style="color: #FF0000;">Golaço na copa de 2014 que ganhou o premio púskas</h1>
+		<div  class="video-container">
+		
+        <video controls>
+		<source width="1250" height="720"  src="james.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Pablo Maia</h1>
+		<img src="maia.png">
+		<p style="color: #FF0000;">Pablo Gonçalves Maia Fortunato, mais conhecido apenas como Pablo Maia, é um futebolista brasileiro que atua como volante. 
+		Atualmente joga pelo São Paulo.</p>
+		<h1 style="color: #FF0000;">Gol de cabeça, contra o atletico-PR, Brasileirão 2023</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Pablo.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Lucas Moura</h1>
+		<img src="lucas.jpg">
+		<p style="color: #FF0000;">Lucas Rodrigues Moura da Silva, mais conhecido como Lucas Moura, é um futebolista brasileiro que atua como atacante. 
+		Atualmente joga pelo São Paulo.</p>
+		<h1 style="color: #FF0000;">gol de cabeça contra o corinthians, semi-final da copa do brasil 2023, jogo de volta</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Lucas.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Jonathan Calleri</h1>
+		<img src="calleri.png">
+		<p style="color: #FF0000;">Jonathan Calleri é um futebolista argentino que atua como centroavante do São Paulo e Também Pai do Corinthians. 
+		É considerado, por torcedores e pela mídia especializada, um dos principais jogadores do clube brasileiro, 
+		pelo qual tornou-se o segundo maior artilheiro estrangeiro e ficou conhecido pelo bordão "Toca no Calleri que é gol!".</p>
+		
+		<h1 style="color: #FF0000;">gol de cabeça contra o flamengo, final da copa do brasil 2023, jogo de ida</h1>
+        <div  class="video-container">
+        <video controls>
+		<source width="650" height="500"  src="Calleri.mp4" type="video/mp4">
+		</video>
+		</div>
+		<h1 style="color: #FF0000;">Pai do Corinthins</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="650" height="500"  src="Pai1.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+        <h1 style="color: #FF0000;">Rodrigo Nestor</h1>
+		<img src="nestor.jpg" width="500" height="333">
+		<p style="color: #FF0000;">Rodrigo Nestor Bertalia é um futebolista brasileiro que atua como meio-campista. Atualmente joga pelo São Paulo. 
+		É considerado um dos mais promissores meio-campistas atuando no futebol brasileiro, e um dos mais participativos jogadores de sua faixa etária entre os principais clubes do Brasileirão.</p>
+		<h1 style="color: #FF0000;">golaço contra o flamengo, final da copa do brasil 2023, joga de volta</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Nestor.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Wellington Rato</h1>
+		<img src="rato.png">
+		<p style="color: #FF0000;">Wellington Soares da Silva, mais conhecido como Wellington Rato, é um futebolista brasileiro que atua como meia-atacante do São Paulo. </p>
+		<h1 style="color: #FF0000;">Golaço contra o Corinthians, semi-final da copa do brasil 2023, jogo de volta, Pena que o Rato Cortou pra Esquerda</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Rato.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Rafinha</h1>
+		<img src="rafa.jpg">
+		<p style="color: #FF0000;">Márcio Rafael Ferreira de Souza, mais conhecido como Rafinha, é um futebolista brasileiro que atua como lateral-direito. Atualmente joga no São Paulo, onde é capitão. 
+		Irá se aposentar em 2024, sendo esta sua última temporada no futebol.</p>
+		<h1 style="color: #FF0000;">Golaço contra o Palmeiras, quartas de final da copa do brasil 2023, jogo de ida</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Rafa.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+		<h1 style="color: #FF0000;">Rafael</h1>
+		<img src="rafael.png">
+		<p style="color: #FF0000;">Rafael Pires Monteiro, mais conhecido como Rafael, é um futebolista brasileiro que atua como goleiro. Atualmente, joga pelo São Paulo.</p>
+		<h1 style="color: #FF0000;">Defesas de pênaltis na  Supercopa Rei 2024</h1>
+		<div  class="video-container">
+        <video controls>
+		<source width="1250" height="720"  src="Penalti.mp4" type="video/mp4">
+		</video>
+		</div>
+		<hr />
+	    <h1 style="color: #FF0000;">Corinthians KKKKKKKKKKKKKKKk</h1>
+        <div>
+        <img src="2007.jpeg" width="600" height="720">
+        </div>
+        <div>
+        <img src="filho.jpeg" width="600" height="720">
+        </div>
+        <div>
+        <img src="tabu.jpeg" width="600" height="720">
+        </div>
+        <div>
+        <img src="fuga.jpeg" width="600" height="720">
+        </div>
+        <hr />
+        <h1 style="color: #FF0000;"> 51 é pinga</h1>
+        <div>
+        <img src="pinga.png" width="600" height="720">
+        </div>
+        <div>
+        <img src="pinga.jfif" width="600" height="720">
+        </div>
+        <div>
+        <img src="pipoca.png" width="600" height="720">
+        </div>
+        <div>
+        <img src="mundial.jpeg" width="600" height="720">
+        </div>
+
+</html>
+
+
